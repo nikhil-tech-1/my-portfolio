@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Nikhil Raj Kumar, B.Tech Computer Science and Engineering student at Vivekananda Global University.">
+  <meta name="author" content="Nikhil Raj Kumar">
+  <meta name="robots" content="index, follow">
+  <title>Nikhil Raj Kumar | Computer Science Student</title>
+  <style>
+    :root{--bg:#0b1220;--panel:#111c30;--text:#edf3ff;--muted:#a9b8d0;--accent:#67d5c2;--line:#263650}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:linear-gradient(140deg,#0b1220,#101d31 65%,#102b36);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{width:min(1050px,92%);margin:auto}
+    header{padding:22px 0;border-bottom:1px solid var(--line)}
+    nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+    .brand{font-weight:800;letter-spacing:.3px}.links{display:flex;gap:20px;flex-wrap:wrap;font-size:.94rem}
+    .hero{padding:78px 0 62px;display:grid;grid-template-columns:1.5fr .8fr;gap:36px;align-items:center}
+    .eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+    h1{font-size:clamp(2.5rem,7vw,4.8rem);line-height:1.04;margin:14px 0}
+    .lead{font-size:1.16rem;color:var(--muted);max-width:680px}
+    .profile{border:1px solid var(--line);background:rgba(17,28,48,.85);border-radius:24px;padding:28px;text-align:center}
+    .avatar{width:150px;height:150px;margin:0 auto 18px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#244b5a,#1a2d48);border:3px solid var(--accent);font-size:2.6rem;font-weight:800;color:#fff}
+    .profile small{color:var(--muted)}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .btn{display:inline-block;padding:11px 17px;border-radius:12px;border:1px solid var(--accent);font-weight:700}
+    .primary{background:var(--accent);color:#08201e}
+    section{padding:28px 0 42px}
+    h2{font-size:1.8rem;margin:0 0 18px}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .card{background:rgba(17,28,48,.82);border:1px solid var(--line);border-radius:18px;padding:22px}
+    .card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}
+    .tags{display:flex;gap:9px;flex-wrap:wrap}
+    .tag{border:1px solid #34516a;background:#14263b;border-radius:999px;padding:7px 12px;color:#dce9f7;font-size:.92rem}
+    .note{font-size:.9rem;color:var(--muted)}
+    footer{border-top:1px solid var(--line);padding:25px 0 40px;color:var(--muted);font-size:.9rem}
+    @media(max-width:700px){.hero{grid-template-columns:1fr;padding:52px 0 38px}.profile{max-width:360px}.grid{grid-template-columns:1fr}.links{gap:12px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="Main navigation">
+        <div class="brand">NIKHIL RAJ KUMAR</div>
+        <div class="links">
+          <a href="#about">About</a><a href="#education">Education</a><a href="#interests">Interests</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="hero">
+      <div>
+        <div class="eyebrow">Student Portfolio</div>
+        <h1>Hello, I'm<br>Nikhil Raj Kumar.</h1>
+        <p class="lead">I am a Bachelor of Technology student in Computer Science and Engineering at Vivekananda Global University. I am learning how software, cloud technologies and emerging technologies can solve practical problems.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore my work</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+      </div>
+      <aside class="profile">
+        <div class="avatar" aria-label="Initials NRK">NRK</div>
+        <h2 style="font-size:1.35rem;margin:0">Nikhil Raj Kumar</h2>
+        <small>B.Tech · Computer Science & Engineering</small>
+        <p class="note" style="margin:14px 0 0">Vivekananda Global University</p>
+      </aside>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>I am a Computer Science and Engineering student building my foundation in programming, data structures, web development and cloud computing. I enjoy learning through practical assignments and projects, and I am interested in using technology to create useful, real-world solutions.</p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>Bachelor of Technology (B.Tech)</h3>
+        <p>Computer Science and Engineering</p>
+        <p>Vivekananda Global University</p>
+        <p class="note">Semester: 3rd · Update this if your current semester has changed.</p>
+      </div>
+    </section>
+
+    <section id="interests">
+      <h2>Areas of Interest</h2>
+      <div class="tags">
+        <span class="tag">Programming</span><span class="tag">Data Structures & Algorithms</span>
+        <span class="tag">Web Development</span><span class="tag">Cloud Computing</span>
+        <span class="tag">Artificial Intelligence</span>
+      </div>
+      <p class="note">These are learning interests, not a claim of professional certification or expertise.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects & Academic Work</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Integrated Farming System</h3>
+          <p>An academic project concept combining fish farming, poultry, vegetables and mushroom cultivation, with an emphasis on resource reuse and sustainable planning.</p>
+        </article>
+        <article class="card">
+          <h3>Data Structures & Algorithms</h3>
+          <p>Academic practice involving arrays, stacks, queues, trees, searching, sorting and traversal concepts.</p>
+        </article>
+        <article class="card">
+          <h3>Web Development Learning</h3>
+          <p>Building foundational knowledge of websites and web technologies through coursework and practical exercises.</p>
+        </article>
+        <article class="card">
+          <h3>Cloud Computing Labs</h3>
+          <p>Academic practice with cloud concepts and Google Cloud learning labs, including virtual machines and application deployment.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>For academic or professional opportunities, you can add your preferred public contact details here.</p>
+        <p class="note">Email, LinkedIn and GitHub links have intentionally been left out until you provide the correct public links. Do not publish your home address, roll number or private phone number.</p>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">© <span id="year">2026</span> Nikhil Raj Kumar · Personal student portfolio</div></footer>
+</body>
+</html>
